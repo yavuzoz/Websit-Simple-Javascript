@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Portfolio-Website-with-Simple-JavaScript" />
+    <meta property="og:image" content="./assets/images/portfolio-bg.png" />
+    <title>Portfolio-Website-with-Simple-JavaScript</title>
+
+    <script src="/assets/code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/styles.css" />
+    <link type="text/css" rel="stylesheet" href="assets/normalize.css" />
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <nav class="navbar tranx-3">
+                <div class="brand">
+                    <h1 class="brand-text font-color-light-1 tranx-3"><span>My PortFolio</span></h1>
+                </div>
+                <ul class="nav-items">
+                    <li class="nav-litem"><a class="font-color-light-1 menu-link tranx-3" href="#home">Home</a></li>
+                    <li class="nav-litem"><a class="font-color-light-1 menu-link tranx-3" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-litem"><a class="font-color-light-1 menu-link tranx-3" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-litem"><a class="font-color-light-1 menu-link tranx-3" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="toggle-menu">
+                    <button type="button" class="dropBtn" onClick="dropdownToggle()"><i
+                            class="font-color-light-1 fa fa-bars tranx-3" aria-hidden="true"></i></button>
+                </div>
+            </nav>
+
+        </header>
+        <div class="side-menu" id="side-menu">
+            <div class="side-menu-content tranx-3">
+                <ul class="side-menu-items">
+                    <li class="nav-litem"><a class="font-color-light-1 tranx-3 menu-link" onClick="dropdownToggle()"
+                            href="#">Home</a></li>
+                    <li class="nav-litem"><a class="font-color-light-1 tranx-3 menu-link" onClick="dropdownToggle()"
+                            href="#certificates">Certificates</a></li>
+                    <li class="nav-litem"><a class="font-color-light-1 tranx-3 menu-link" onClick="dropdownToggle()"
+                            href="#aboutme">About Me</a></li>
+                    <li class="nav-litem"><a class="font-color-light-1 tranx-3 menu-link" onClick="dropdownToggle()"
+                            href="#contact">Contact</a></li>
+                </ul>
+                <div class="profile-image-small box-shadow-1">
+                    <img class="img-full-width" src="./assets/images/profile.jpg" alt="" />
+                </div>
+
+                <div class="side-socials">
+                    <a href="#" target="_blank"
+                        class="font-color-light-1 solcial-link menu-link tranx-3"><i class="fa fa-facebook-square"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/yavuzoz" class="font-color-light-1 solcial-link menu-link tranx-3"
+                        target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/yavuzoz" class="font-color-light-1 solcial-link menu-link tranx-3"
+                        target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                </div>
+                <div class="hireme">
+                    <a href="#contact"><button class="hireme-btn tranx-3" type="button">Hire Me</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="hero"
+            style="background: url(./assets/images/bg.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+            <div class="content flex-content">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img class="img-full-width" src="./assets/images/myfoto.jpeg" alt="myfoto" />
+                    </div>
+                    <h1 class="font-color-light-1"><span>Yavuz</span><span>Özbay</span></h1>
+                    <p class="font-color-light-1">
+                        <span>Full stack Developer</span>
+                        <span></span>
+                    </p>
+                    <div class="socials">
+                        <a href="#" target="_blank"
+                            class="font-color-light-1 solcial-link tranx-3"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i></a>
+                        <a href="https://github.com/yavuzoz" target="_blank"
+                            class="font-color-light-1 solcial-link tranx-3"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/yavuz-%C3%B6zbay-01739b1b1/"
+                            class="font-color-light-1 solcial-link tranx-3" target="_blank"><i
+                                class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tint"></div>
+        </section>
+
+        <section id="certificates">
+            <div class="flex-container">
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/0.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="https://drive.google.com/file/d/1u4aAN6nIJiIEbSJryPYs912KKPF4jVGv/view"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/1.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="https://www.coursera.org/account/accomplishments/verify/2JUNN6HUBHM6"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/2.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="https://www.coursera.org/account/accomplishments/verify/6EKV5GGLFGKS"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/3.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="https://www.coursera.org/account/accomplishments/certificate/9KK9TLFFE7FB"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/4.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/5.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="
+                                        https://www.coursera.org/account/accomplishments/certificate/V2VFSPLX8N3V"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/6.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="
+                                        https://www.coursera.org/account/accomplishments/certificate/2ASL33KAUQ4C"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/7.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/8.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="https://www.coursera.org/account/accomplishments/certificate/35UN2N72NF7E"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/9.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/10.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/11.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/12.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card box-shadow-1">
+                    <div class="card-content tranx-3">
+                        <div class="card-img"
+                            style="background: url(./assets/images/13.png); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                            <div class="card-hover">
+                                <div class="card-info font-color-light-1">
+                                    <div class="card-buttons">
+                                        <a type="button" class="font-color-light-1 tranx-3" href="#"
+                                            target="_blank">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutme">
+            <div class="row">
+                <div class="visibility-hidden-3"></div>
+
+                <div class="visibility-hidden-2"></div>
+
+                <div class="content">
+                    <div class="about-me">
+                        <div class="about-me-left">
+                            <div class="content-header">
+                                <h2 class="font-color-dark-2">About Me</h2>
+                            </div>
+
+                            <p class="font-color-dark-2">
+                                Curious full stack developer, interested in writing new codes, skilled at developing complex solutions, possessing strong creative thinking skills, high energy and integrity.  Have the ability to create algorithms effectively, interact positively and communicate appropriately with team members. Quick to grasp new technologies and concepts to develop innovative and creative solutions to problems. Always eager to learn various technologies, tools and libraries. Especially interested in Mobile/Front end/Web Development, React Native, ReactJs, NodeJs, Django and JavaScript. I am excited to learn new things and improve myself. You can review my projects on my GitHub account.
+                            </p>
+                            <p class="card-buttons">My Github link -->
+                                <a type="button" class="font-color-light" href="https://github.com/yavuzoz"
+                                    target="_blank">click</a>
+                            </p>
+                            <p class="card-buttons">My Linkedln link -->
+                                <a type="button" class="font-color-light" href="https://www.linkedin.com/in/yavuz-%C3%B6zbay-01739b1b1/"
+                                    target="_blank">click</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="row">
+                <div class="visibility-hidden-3"></div>
+                <div class="get-in-touch">
+                    <div class="form">
+                        <form name="form" class="box-shadow-1" id="contactForm" onSubmit="return validateForm()">
+                            <div class="font-color-dark-2 content-header">
+                                <h2>Let's get in touch</h2>
+                                <!-- <small id="success"></small> -->
+                            </div>
+                            <div class="form-input">
+                                <label class="error tranx-3" id="name">Name</label>
+                                <input type="text" name="name" onFocus="inputFocus()" placeholder="Name Required" />
+                            </div>
+                            <div class="form-input">
+                                <label class="error tranx-3" id="email">Email</label>
+                                <input type="email" name="email" onFocus="inputFocus()" placeholder="Email Required" />
+                            </div>
+                            <div class="form-input">
+                                <label class="error tranx-3" id="message">Message</label>
+                                <textarea type="text" onFocus="inputFocus()" name="message"></textarea>
+                            </div>
+                            <div class="form-input">
+                                <button class="tranx-3" id="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="visibility-hidden-2"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="row">
+                <div class="grid-2">
+                    <div>
+                        <small>&copy; <span id="year"></span> Copyright . Created By <strong><a
+                                    href="#" target="_blank">Yavuz Ö.</a></strong></small>
+                    </div>
+                    <div class="column-2">
+                        <small>Portfolio Website. Created with &#9829;</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="assets/scripts.js"></script>
+</body>
+
+</html>
